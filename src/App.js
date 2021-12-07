@@ -49,25 +49,25 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path="/" component={Home}/>
-        <Route path="/contact" component={Contact}/>
-        <Route path="/about" component={About}/>
-        <Route path="/eyewear" component={Eyewear}/>
-        <Route path="/accessories" component={Accessory}/>
-        <Route path="/magic-lenses" component={Mlenses}/>
+        <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/about" component={About}/>
+        <Route exact path="/eyewear" component={Eyewear}/>
+        <Route exact path="/accessories" component={Accessory}/>
+        <Route exact path="/magic-lenses" component={Mlenses}/>
         {/* <Route path="/bifocal" component={Bifocal}/>
         <Route path="/single-vision" component={Single}/>
         <Route path="/male" component={Male}/>
         <Route path="/female" component={Female}/>
         <Route path="/kids" component={Kids}/> */}
-        <Route path="/sun-shades" component={Sunshades}/>
-        <Route path="/trending" component={Trending}/>
-        <Route path="/cart" component={Cart}/>
+        <Route exact path="/sun-shades" component={Sunshades}/>
+        <Route exact path="/trending" component={Trending}/>
+        <Route exact path="/cart" component={Cart}/>
         <Route exact path="/product" component={Product}/>
-        <Route path="/product/eyewear" component={EyewearProduct}/>
-        <Route path="/login" component={Login}/>
-        <Route path="/register" component={Register}/>
-        <Route path="/edit-profile" component={EditProfile}/>
-        <Route path="/change-password" component={ChangePassword}/>
+        <Route exact path="/product/eyewear" component={EyewearProduct}/>
+        <Route exact path="/login" component={Login}/>
+        <Route exact path="/register" component={Register}/>
+        <Route exact path="/edit-profile" component={EditProfile}/>
+        <Route exact path="/change-password" component={ChangePassword}/>
       </Switch>
       <Footer/>
       <Copyright/>
