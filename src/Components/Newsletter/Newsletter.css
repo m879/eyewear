@@ -1,0 +1,43 @@
+.newsletter-container{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.qualities{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+/* 
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.input input{
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+}
+ */

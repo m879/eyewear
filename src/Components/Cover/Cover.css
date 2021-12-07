@@ -1,0 +1,53 @@
+.caption{
+    
+    margin-bottom: 70px;
+    width: 400px;
+}
+
+.caption h3{
+    font-size: 80px;
+    font-weight: 900;
+    
+}
+
+.caption p{
+    font-size: 24px;
+    color: cornsilk;
+    font-weight: 700;
+}
+.caption button{
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    width: 200px;
+    padding: 10px 0;
+    border-radius: 12px;
+}
+
+@keyframes slide-up {
+    from {
+        
+        opacity: .25;
+        line-height: 700px;
+    }
+    to {
+        
+        opacity: 1;
+        line-height: 25px;
+    }
+}
+
+.slide-up {
+    animation: slide-up 2s;
+}
+
+
+.cover{
+    width: 100%;
+}
+
+.cover img{
+    width: 100%;
+    margin-top: 100px;
+}

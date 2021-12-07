@@ -1,0 +1,124 @@
+.progress-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 204, 204);
+}
+
+.progress{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+.active-progress{
+    background-color: grey;
+}
+
+.progress-line{
+    width: 100px;
+    height: 2px;
+    background-color: grey;
+}
+
+.option-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.option-container h4{
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.option-container .input{
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid rgb(216, 216, 216);
+}
+
+.lens-cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+
+.lens-card{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(209, 209, 209);
+    cursor: pointer;
+}
+
+.blue-part{
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-size: 12px;
+
+}
+
+.blue-part span{
+    color: white;
+}
+
+.blue-part button{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+.green-text{
+    padding: 20px;
+    border-bottom: 1px solid rgb(209, 209, 209);
+    color: green;
+    font-size: 12px;
+}
+
+.grey-text{
+    color: grey;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.prescription-header{
+    width: 100%;
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+.prescription-text{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    color: grey;
+}
+
+
+.active{
+    border: 2px solid blue;
+}

@@ -1,0 +1,90 @@
+.user-container{
+    width: 100%;
+    display: flex;
+    padding: 60px;
+    justify-content: space-between;
+    background-color: #FFF1EC;
+
+}
+
+.eye{
+    position: relative;
+    bottom: 30px;
+    left: 100px;
+}
+.user-container img{
+    width: 45%;
+    height:350px;
+    padding-top: 50px;
+}
+.login-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+.login-container h4{
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #106894;
+    font-weight: 600;
+    
+}
+
+.login-input{
+    margin-top: 30px;
+    width: 250px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.or{
+    margin-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+
+.login-container button.login{
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    color: white;
+    background-color: #EE9776;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+}
+
+.outlined{
+    width: 250px;
+    text-align: center;
+    padding: 5px;
+    margin-top: 30px;
+    border: 2px solid #EE9776;
+    color: #EE9776;
+    background: transparent;
+}
+
+.login-row{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-input{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-input label{
+    margin-top: 30px;
+}
